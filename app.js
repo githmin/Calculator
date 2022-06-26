@@ -1,8 +1,10 @@
 // let sum = 0;
 
+
 var reply_click = function()
 {
     alert(this.id);
+    
 }
 document.getElementById('seven').onclick = reply_click;
 // document.getElementById('2').onclick = reply_click;
