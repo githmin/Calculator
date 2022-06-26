@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    
   }
 
 #first-row *, #second-row *, #third-row *, #forth-row *, #fifth-row *{
@@ -63,7 +64,15 @@
 }
 
 #display-text{
-    padding: 15px;
+    padding-top: 10px;
+    padding-right: 5px;
+    font-size: 20px;
+    color: #3B3B3B;
+}
+
+#display-text-two{
+    padding-top: 10px;
+    padding-right: 5px;
     font-size: 20px;
 }
 
@@ -76,22 +85,10 @@
 
 
 #inner-inv{
-    background-color: rgb(247, 213, 23);
+    background-color:#3B3B3B;
     padding: 5px;
     border-radius: 10px;
 }
-
-
-/* .footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: black;
-    text-align: center;
-    font-family: 'Kanit', sans-serif;
-    margin-bottom: 30px;
-} */
 
 .header{
     text-align: center;
@@ -126,4 +123,8 @@
 
 .para{
     padding-top: 10px;
+}
+
+.bdy{
+    background-color: #FCB53D;
 }
